@@ -1,0 +1,182 @@
+body {
+    font-family: 'Almarai', sans-serif;
+}
+
+.load {
+    display: none !important;
+}
+
+#logo-header {
+    position: absolute;
+    z-index: 999;
+    left: 100px;
+    top: 60px;
+}
+
+#logo-img {
+    height: 300px;
+    -webkit-filter: drop-shadow(5px 5px 30px #222);
+    filter: drop-shadow(5px 5px 30px #222);
+}
+
+#header {
+    height: 20rem;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
+    border-bottom: 20px solid #5b0d25;
+}
+
+.bg-primary {
+    background-color: #811538 !important;
+    color: white;
+}
+
+#header-background {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/pattern.png");
+}
+
+.header-title {
+    direction: rtl;
+    font-size: 50px;
+    margin-right: 5%;
+    color: white;
+}
+
+.header-title h1 {
+    font-weight: 800;
+}
+
+.header-title h1:nth-child(1) {
+    font-size: 70px;
+}
+
+.header-title h1:nth-child(2) {
+    font-size: 90px;
+}
+
+.qatar-img {
+    margin-top: 30px;
+}
+
+.qatar-img img {
+    width: 400px;
+}
+
+.bg-secondary {
+    background-color: #5b0d25 !important;
+    color: white;
+}
+
+.flag img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.match-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.star {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.flag sup {
+    position: relative;
+    top: -15px;
+}
+
+@media (766px <=width <=1199px) {
+    .content-header {
+        overflow-x: scroll;
+    }
+
+    .content-width {
+        width: 420px;
+    }
+}
+
+@media (max-width: 479px) {
+    .content-header {
+        overflow-x: scroll;
+    }
+
+    .content-width {
+        width: 420px;
+    }
+}
+
+@media (max-width: 900px) {
+    #logo-header {
+        left: 10%;
+    }
+
+    #logo-img {
+        height: 250px;
+    }
+
+    .qatar-img img {
+        width: 45%;
+    }
+
+    .header-title {
+        margin-right: 4%;
+    }
+
+    .header-title h1:nth-child(1) {
+        font-size: 50px;
+        margin-top: 25px;
+    }
+
+    .header-title h1:nth-child(2) {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 600px) {
+    #logo-header {
+        left: 7%;
+    }
+
+    #logo-img {
+        height: 230px;
+    }
+
+    .qatar-img img {
+        width: 55%;
+    }
+
+    .header-title {
+        margin-right: -3%;
+    }
+
+    .header-title h1:nth-child(1) {
+        font-size: 40px;
+        margin-top: 35px;
+    }
+
+    .header-title h1:nth-child(2) {
+        font-size: 60px;
+    }
+}
+
+@media (768px <=width <=992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (576px <=width <=767px) {
+    .container {
+        max-width: 670px;
+    }
+}
+
+.col-1 {
+    padding: 0;
+}
