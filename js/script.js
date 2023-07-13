@@ -2,8 +2,6 @@ const token = "97e37bbc7f4f47e69e84f24f18478579"
 const baseUrl = "http://api.football-data.org/v4/competitions/2000"
 
 function getStandings() {
-    $("#loading").hide();
-    $(".load").removeClass("load");
     const url = `${baseUrl}/standings`
 
     axios.get(url, {
